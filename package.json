@@ -38,11 +38,12 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx}": [
-      "eslint --quiet --fix"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
     ],
-    "*.{json,js,ts,jsx,tsx,html}": [
-      "prettier --write --ignore-unknown"
+    "*.{json,md,mdx}": [
+      "prettier --write"
     ]
   }
 }
