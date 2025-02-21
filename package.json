@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "15.1.7",
